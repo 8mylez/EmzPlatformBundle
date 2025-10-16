@@ -1,0 +1,29 @@
+{
+    "name": "emz/platform-bundle",
+    "type": "library",
+    "version": "1.0.0",
+    "description": "Core helpers for managing multiple Shopware 6 bundles in one plugin",
+    "keywords": [
+        "Shopware 6",
+        "platform",
+        "bundle",
+        "multi-bundle"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Emz\\PlatformBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "8mylez GmbH",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+        "shopware/core": "~6.5.0 || ~6.6.0 || ~6.7.0",
+        "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
+        "symfony/dependency-injection": "~6.3.0 || ~7.0",
+        "doctrine/dbal": "^4.3.1"
+    }
+}
