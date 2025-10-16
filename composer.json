@@ -2,6 +2,7 @@
     "name": "emz/platform-bundle",
     "type": "library",
     "version": "1.0.0",
+    "license": "MIT",
     "description": "Core helpers for managing multiple Shopware 6 bundles in one plugin",
     "keywords": [
         "Shopware 6",
